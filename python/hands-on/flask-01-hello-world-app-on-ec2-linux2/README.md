@@ -54,7 +54,7 @@ Followings are some of features of Flask Framework;
 - Connect to your instance with SSH.
 
 ```bash
-ssh -i .ssh/call-training.pem ec2-user@ec2-3-15-183-78.us-east-2.compute.amazonaws.com
+ssh -i hs.pem ec2-user@18.219.86.117.us-east-2.compute.amazonaws.com
 ```
 
 - Update the installed packages and package cache on your instance.
