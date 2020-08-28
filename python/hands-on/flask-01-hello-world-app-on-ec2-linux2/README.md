@@ -54,7 +54,7 @@ Followings are some of features of Flask Framework;
 - Connect to your instance with SSH.
 
 ```bash
-ssh -i hs.pem ec2-user@18.219.86.117.us-east-2.compute.amazonaws.com
+ssh -i hsrn.pem ec2-user@ip-172-31-49-221.us-east-2.compute.amazonaws.com
 ```
 
 - Update the installed packages and package cache on your instance.
@@ -172,11 +172,9 @@ sudo python3 hello-world-app.py
 - Connect the Hello World application from the web browser
 
 ```text
-http://ec2-3-15-183-78.us-east-2.compute.amazonaws.com
-```
+http://ec2-54-237-105-121.compute-1.amazonaws.com/```
 
 - Connect the Hello World application from the terminal with `curl` command.
 
 ```bash
-curl -v http://ec2-3-15-183-78.us-east-2.compute.amazonaws.com
-```
+http://ec2-54-237-105-121.compute-1.amazonaws.com/```
